@@ -1,0 +1,273 @@
+name: Shadowgate64 (North America)
+sha1: 4397729f8143ea9a39f319e1f31f2e0b84335a24
+options:
+  basename: shadowgate64
+  target_path: baserom.us.z64
+  base_path: .
+  compiler: GCC
+  find_file_boundaries: True
+  header_encoding: ASCII
+  platform: n64
+  # undefined_funcs_auto: True
+  # undefined_funcs_auto_path: undefined_funcs_auto.txt
+  # undefined_syms_auto: True
+  # undefined_syms_auto_path: undefined_syms_auto.txt
+  # symbol_addrs_path: symbol_addrs.txt
+  asm_path: asm
+  src_path: src
+  build_path: build
+  symbol_addrs_path: symbol_addrs.txt
+  asm_function_macro: glabel
+  asm_data_macro: dlabel
+  asm_inc_header: "\t.include \"macro.inc\"\n\t.set noat\n\t.set noreorder\n"
+  # extensions_path: tools/splat_ext
+  # mips_abi_float_regs: o32
+  # section_order: [".text", ".data", ".rodata", ".bss"]
+  # auto_all_sections: [".data", ".rodata", ".bss"]
+  # libultra_symbols: True
+  # hardware_regs: True
+segments:
+  - name: header
+    type: header
+    start: 0x0
+
+  - name: boot
+    type: bin
+    start: 0x40
+
+  - name: entry
+    type: code
+    start: 0x1000
+    vram: 0x80025C00
+    subsegments:
+      - [0x1000, hasm]
+
+  - name: main
+    type: code
+    start: 0x1050
+    vram: 0x80025C50
+    follows_vram: entry
+    bss_size: 0x3CF50
+    subsegments:
+      - [0x1050, bin]
+      - [0x1280, c]
+      - [0x21A0, c]
+      - [0x4CE0, c]
+      - [0x7C00, c]
+      - [0x7F50, c]
+      - [0xA4E0, c]
+      - [0xABF0, c]
+      - [0xC1D0, c]
+      - [0xF0C0, c]
+      - [0xF290, c]
+      - [0xF950, c]
+      - [0x168D0, c]
+      - [0x17E40, c]
+      - [0x1CD60, c]
+      - [0x29A80, c]
+      - [0x2D860, c]
+      - [0x2F1D0, c]
+      - [0x30280, c]
+      - [0x361E0, c]
+      - [0x36E70, c]
+      - [0x37410, c]
+      - [0x391F0, c]
+      - [0x39960, c]
+      - [0x3CA40, c]
+      - [0x3DE90, c]
+      - [0x3F5E0, c]
+      - [0x42140, c]
+      - [0x42560, c]
+      - [0x43660, c]
+      - [0x46F10, c]
+      - [0x47000, c]
+      - [0x47550, c]
+      - [0x47B20, c]
+      - [0x47F70, c]
+      - [0x489E0, c]
+      - [0x49300, c]
+      - [0x49AA0, c]
+      - [0x4B550, c]
+      - [0x4D0D0, c]
+      - [0x4D8D0, c]
+      - [0x54490, c]
+      - [0x57D30, c]
+      - [0x586B0, c]
+      - [0x616E0, c]
+      - [0x618A0, c]
+      - [0x618D0, c]
+      - [0x61920, c]
+      - [0x61960, c]
+      - [0x619A0, c]
+      - [0x619E0, c]
+      - [0x61A10, c]
+      - [0x61A50, c]
+      - [0x61A90, c]
+      - [0x61AD0, c]
+      - [0x61B40, c]
+      - [0x61BB0, c]
+      - [0x61E30, c]
+      - [0x65F00, c]
+      - [0x66360, c]
+      - [0x66510, c]
+      - [0x667D0, c]
+      - [0x66A40, c]
+      - [0x679D0, c]
+      - [0x680F0, c]
+      - [0x682D0, c]
+      - [0x68CC0, c]
+      - [0x68D40, c]
+      - [0x68D90, c]
+      - [0x68F70, c]
+      - [0x69020, c]
+      - [0x690B0, c]
+      - [0x69140, c]
+      - [0x691F0, c]
+      - [0x69280, c]
+      - [0x69300, c]
+      - [0x69860, c]
+      - [0x698B0, c]
+      - [0x69980, c]
+      - [0x6A220, c]
+      - [0x6A6A0, c]
+      - [0x6A6C0, c]
+      - [0x6A6F0, c]
+      - [0x6A8B0, c]
+      - [0x6ABF0, c]
+      - [0x6AC30, c]
+      - [0x6ACC0, c]
+      - [0x6ACF0, c]
+      - [0x6AD30, c]
+      - [0x6AD90, c]
+      - [0x6B020, c]
+      - [0x6B080, c]
+      - [0x6B0C0, c]
+      - [0x6B1B0, c]
+      - [0x6B290, c]
+      - [0x6B2E0, c]
+      - [0x6B330, c]
+      - [0x6B370, c]
+      - [0x6B450, c]
+      - [0x6B490, c]
+      - [0x6B5C0, c]
+      - [0x6B600, c]
+      - [0x6B620, c]
+      - [0x6B730, c]
+      - [0x6BB30, c]
+      - [0x6BDF0, c]
+      - [0x6BE70, c]
+      - [0x6C290, c]
+      - [0x6C330, c]
+      - [0x6C4B0, c]
+      - [0x6C870, c]
+      - [0x6C960, c]
+      - [0x6CAA0, c]
+      - [0x6CB40, c]
+      - [0x6D370, c]
+      - [0x6DE80, c]
+      - [0x6DF90, c]
+      - [0x6EC60, c]
+      - [0x6F080, c]
+      - [0x6FC20, c]
+      - [0x6FDA0, c]
+      - [0x6FDE0, c]
+      - [0x6FE30, c]
+      - [0x6FE70, c]
+      - [0x704B0, c]
+      - [0x704C0, c]
+      - [0x70560, c]
+      - [0x70640, c]
+      - [0x708C0, c]
+      - [0x70BD0, c]
+      - [0x70C30, c]
+      - [0x70C40, c]
+      - [0x714A0, c]
+      - [0x71630, c]
+      - [0x71C30, c]
+      - [0x71C60, c]
+      - [0x71F40, c]
+      - [0x72260, c]
+      - [0x72340, c]
+      - [0x725B0, c]
+      - [0x729A0, c]
+      - [0x72AE0, c]
+      - [0x72C10, c]
+      - [0x72DF0, c]
+      - [0x73030, c]
+      - [0x73050, c]
+      - [0x730A0, c]
+      - [0x73B60, c]
+      - [0x73C50, c]
+      - [0x73D40, c]
+      - [0x73E10, c]
+      - [0x73F30, c]
+      - [0x73FF0, c]
+      - [0x74030, c]
+      - [0x74080, c]
+      - [0x74110, c]
+      - [0x741B0, c]
+      - [0x744B0, c]
+      - [0x74570, c]
+      - [0x745B0, c]
+      - [0x745F0, c]
+      - [0x74930, c]
+      - [0x74990, c]
+      - [0x749E0, c]
+      - [0x74B50, c]
+      - [0x74BA0, c]
+      - [0x74BF0, c]
+      - [0x74F00, c]
+      - [0x74F60, c]
+      - [0x75390, c]
+      - [0x755B0, c]
+      - [0x75B90, c]
+      - [0x75D50, c]
+      - [0x75E60, c]
+      - [0x76230, c]
+      - [0x76290, c]
+      - [0x764A0, c]
+      - [0x76510, c]
+      - [0x76FA0, c]
+      - [0x77190, c]
+      - [0x77400, c]
+      - [0x77420, c]
+      - [0x77710, c]
+      - [0x78110, c]
+      - [0x781A0, c]
+      - [0x78400, c]
+      - [0x78570, c]
+      - [0x78590, c]
+      - [0x78610, c]
+      - [0x78690, c]
+      - [0x78740, c]
+      - [0x788F0, c]
+      - [0x78900, c]
+      - [0x78910, c]
+      - [0x78920, c]
+      - [0x78930, c]
+      - [0x78980, c]
+      - [0x78A60, c]
+      - [0x78AB0, c]
+      - [0x78B00, c]
+      - [0x78BF0, c]
+      - [0x78CD0, c]
+      - [0x78D30, c]
+      - [0x78D80, c]
+      - [0x78E90, c]
+      - [0x78EA0, c]
+      - [0x798A0, c]
+      - [0x798C0, c]
+      - [0x798E0, c]
+      - [0x79D90, c]
+      - [0x79FB0, c]
+      - [0x7A220, c]
+      - [0x7A510, c]
+      - [0x7A610, c]
+      - [0x7A620, bin]
+      - [0x7A810, bin]
+#      - { start: 0x8BE60, type: bss, vram: 0x800B0A60 }
+
+  - type: bin
+    start: 0x8BE60
+    follows_vram: main
+  - [0x1000000]

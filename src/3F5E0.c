@@ -1,0 +1,55 @@
+#include "common.h"
+
+INCLUDE_ASM(const s32, "3F5E0", func_800641E0);
+
+INCLUDE_ASM(const s32, "3F5E0", func_800641E8);
+
+INCLUDE_ASM(const s32, "3F5E0", func_800642F0);
+
+INCLUDE_ASM(const s32, "3F5E0", func_80064348);
+
+INCLUDE_ASM(const s32, "3F5E0", func_800643EC);
+
+INCLUDE_ASM(const s32, "3F5E0", func_80064404);
+
+INCLUDE_ASM(const s32, "3F5E0", func_8006445C);
+
+INCLUDE_ASM(const s32, "3F5E0", func_800644EC);
+
+INCLUDE_ASM(const s32, "3F5E0", func_80064504);
+
+INCLUDE_ASM(const s32, "3F5E0", func_80065460);
+
+INCLUDE_ASM(const s32, "3F5E0", func_800657F4);
+
+INCLUDE_ASM(const s32, "3F5E0", func_8006588C);
+
+INCLUDE_ASM(const s32, "3F5E0", func_80065B54);
+
+INCLUDE_ASM(const s32, "3F5E0", func_80065DA8);
+
+INCLUDE_ASM(const s32, "3F5E0", func_80065E6C);
+
+INCLUDE_ASM(const s32, "3F5E0", func_80065F1C);
+
+INCLUDE_ASM(const s32, "3F5E0", func_80065FD0);
+
+INCLUDE_ASM(const s32, "3F5E0", func_800661F4);
+
+INCLUDE_ASM(const s32, "3F5E0", func_800662AC);
+
+INCLUDE_ASM(const s32, "3F5E0", func_800663E8);
+
+INCLUDE_ASM(const s32, "3F5E0", func_80066548);
+
+INCLUDE_ASM(const s32, "3F5E0", func_800665B4);
+
+INCLUDE_ASM(const s32, "3F5E0", func_80066698);
+
+INCLUDE_ASM(const s32, "3F5E0", func_80066A70);
+
+INCLUDE_ASM(const s32, "3F5E0", func_80066B74);
+
+INCLUDE_ASM(const s32, "3F5E0", func_80066BFC);
+
+INCLUDE_ASM(const s32, "3F5E0", func_80066C9C);

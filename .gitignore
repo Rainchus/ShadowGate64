@@ -1,0 +1,8 @@
+asm/
+build/
+assets/
+.ninja_log
+build.ninja
+undefined_funcs_auto.txt
+undefined_syms_auto.txt
+baserom.us.z64

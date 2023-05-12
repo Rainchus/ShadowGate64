@@ -1,0 +1,57 @@
+#include "common.h"
+
+INCLUDE_ASM(const s32, "39960", func_8005E560);
+
+INCLUDE_ASM(const s32, "39960", func_8005EDB8);
+
+INCLUDE_ASM(const s32, "39960", func_8005F1D8);
+
+INCLUDE_ASM(const s32, "39960", func_8005F5F8);
+
+INCLUDE_ASM(const s32, "39960", func_8005F8E4);
+
+INCLUDE_ASM(const s32, "39960", func_8005F994);
+
+INCLUDE_ASM(const s32, "39960", func_8005FA44);
+
+INCLUDE_ASM(const s32, "39960", func_8005FA94);
+
+INCLUDE_ASM(const s32, "39960", func_8005FB14);
+
+INCLUDE_ASM(const s32, "39960", func_8005FBD4);
+
+INCLUDE_ASM(const s32, "39960", func_8005FC8C);
+
+INCLUDE_ASM(const s32, "39960", func_8005FFD0);
+
+INCLUDE_ASM(const s32, "39960", func_80060134);
+
+INCLUDE_ASM(const s32, "39960", func_800601B4);
+
+INCLUDE_ASM(const s32, "39960", func_8006020C);
+
+INCLUDE_ASM(const s32, "39960", func_8006041C);
+
+INCLUDE_ASM(const s32, "39960", func_800604CC);
+
+INCLUDE_ASM(const s32, "39960", func_800606BC);
+
+INCLUDE_ASM(const s32, "39960", func_8006076C);
+
+INCLUDE_ASM(const s32, "39960", func_8006093C);
+
+INCLUDE_ASM(const s32, "39960", func_80060A40);
+
+INCLUDE_ASM(const s32, "39960", func_80060B40);
+
+INCLUDE_ASM(const s32, "39960", func_80060CFC);
+
+INCLUDE_ASM(const s32, "39960", func_80060E38);
+
+INCLUDE_ASM(const s32, "39960", func_80060EE8);
+
+INCLUDE_ASM(const s32, "39960", func_800613A8);
+
+INCLUDE_ASM(const s32, "39960", func_800614F4);
+
+INCLUDE_ASM(const s32, "39960", func_800615A4);

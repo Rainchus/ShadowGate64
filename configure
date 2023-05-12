@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+
+if [[ ! -f "baserom.us.z64" ]]; then
+    echo "Error: baserom.us.z64 not found in current directory"
+    exit 1
+fi
+
+expected_hash="4397729f8143ea9a39f319e1f31f2e0b84335a24"
+actual_hash=$(sha1sum baserom.us.z64 | awk '{ print $1 }')
+
+if [[ "$actual_hash" != "$expected_hash" ]]; then
+    echo "Error: baserom.us.z64 has an invalid SHA1 hash"
+    exit 1
+fi
+
+if [[ "$1" == "--mod" ]]; then
+    if [[ ! -d src/mod ]]; then
+        mkdir -p src/mod
+    fi
+    python3 tools/splat/split.py shadowgate64.yaml
+    python3 mod_configure.py "$@"
+    
+else
+    python3 tools/splat/split.py shadowgate64.yaml
+    python3 tools/configure.py "$@"
+fi

@@ -1,0 +1,189 @@
+#include "common.h"
+
+INCLUDE_ASM(const s32, "1CD60", func_80041960);
+
+INCLUDE_ASM(const s32, "1CD60", func_80041A4C);
+
+INCLUDE_ASM(const s32, "1CD60", func_80041B38);
+
+INCLUDE_ASM(const s32, "1CD60", func_80041C40);
+
+INCLUDE_ASM(const s32, "1CD60", func_80041DEC);
+
+INCLUDE_ASM(const s32, "1CD60", func_80041F4C);
+
+INCLUDE_ASM(const s32, "1CD60", func_80041FC8);
+
+INCLUDE_ASM(const s32, "1CD60", func_80042160);
+
+INCLUDE_ASM(const s32, "1CD60", func_800422C0);
+
+INCLUDE_ASM(const s32, "1CD60", func_80042344);
+
+INCLUDE_ASM(const s32, "1CD60", func_8004238C);
+
+INCLUDE_ASM(const s32, "1CD60", func_80042434);
+
+INCLUDE_ASM(const s32, "1CD60", func_8004247C);
+
+INCLUDE_ASM(const s32, "1CD60", func_800424D0);
+
+INCLUDE_ASM(const s32, "1CD60", func_800425C4);
+
+INCLUDE_ASM(const s32, "1CD60", func_80042640);
+
+INCLUDE_ASM(const s32, "1CD60", func_800429E8);
+
+INCLUDE_ASM(const s32, "1CD60", func_80042BE8);
+
+INCLUDE_ASM(const s32, "1CD60", func_80042FD4);
+
+INCLUDE_ASM(const s32, "1CD60", func_80043114);
+
+INCLUDE_ASM(const s32, "1CD60", func_80043248);
+
+INCLUDE_ASM(const s32, "1CD60", func_800433B8);
+
+INCLUDE_ASM(const s32, "1CD60", func_800435F0);
+
+INCLUDE_ASM(const s32, "1CD60", func_80043CA8);
+
+INCLUDE_ASM(const s32, "1CD60", func_80043F80);
+
+INCLUDE_ASM(const s32, "1CD60", func_80044150);
+
+INCLUDE_ASM(const s32, "1CD60", func_800443B8);
+
+INCLUDE_ASM(const s32, "1CD60", func_80044504);
+
+INCLUDE_ASM(const s32, "1CD60", func_8004483C);
+
+INCLUDE_ASM(const s32, "1CD60", func_80044AF0);
+
+INCLUDE_ASM(const s32, "1CD60", func_80044C18);
+
+INCLUDE_ASM(const s32, "1CD60", func_80044E94);
+
+INCLUDE_ASM(const s32, "1CD60", func_80045090);
+
+INCLUDE_ASM(const s32, "1CD60", func_8004539C);
+
+INCLUDE_ASM(const s32, "1CD60", func_80045534);
+
+INCLUDE_ASM(const s32, "1CD60", func_80045544);
+
+INCLUDE_ASM(const s32, "1CD60", func_80045978);
+
+INCLUDE_ASM(const s32, "1CD60", func_80045C14);
+
+INCLUDE_ASM(const s32, "1CD60", func_80045C30);
+
+INCLUDE_ASM(const s32, "1CD60", func_80045D8C);
+
+INCLUDE_ASM(const s32, "1CD60", func_8004608C);
+
+INCLUDE_ASM(const s32, "1CD60", func_80046258);
+
+INCLUDE_ASM(const s32, "1CD60", func_80046538);
+
+INCLUDE_ASM(const s32, "1CD60", func_800467A4);
+
+INCLUDE_ASM(const s32, "1CD60", func_80046A2C);
+
+INCLUDE_ASM(const s32, "1CD60", func_80046D2C);
+
+INCLUDE_ASM(const s32, "1CD60", func_80046FB4);
+
+INCLUDE_ASM(const s32, "1CD60", func_800471C4);
+
+INCLUDE_ASM(const s32, "1CD60", func_80047750);
+
+INCLUDE_ASM(const s32, "1CD60", func_800479F8);
+
+INCLUDE_ASM(const s32, "1CD60", func_80047C8C);
+
+INCLUDE_ASM(const s32, "1CD60", func_80048814);
+
+INCLUDE_ASM(const s32, "1CD60", func_80048A70);
+
+INCLUDE_ASM(const s32, "1CD60", func_80048E34);
+
+INCLUDE_ASM(const s32, "1CD60", func_8004919C);
+
+INCLUDE_ASM(const s32, "1CD60", func_8004932C);
+
+INCLUDE_ASM(const s32, "1CD60", func_800494E8);
+
+INCLUDE_ASM(const s32, "1CD60", func_80049614);
+
+INCLUDE_ASM(const s32, "1CD60", func_800496E8);
+
+INCLUDE_ASM(const s32, "1CD60", func_800499E4);
+
+INCLUDE_ASM(const s32, "1CD60", func_80049A2C);
+
+INCLUDE_ASM(const s32, "1CD60", func_80049A74);
+
+INCLUDE_ASM(const s32, "1CD60", func_80049AC0);
+
+INCLUDE_ASM(const s32, "1CD60", func_80049E3C);
+
+INCLUDE_ASM(const s32, "1CD60", func_8004A314);
+
+INCLUDE_ASM(const s32, "1CD60", func_8004A5BC);
+
+INCLUDE_ASM(const s32, "1CD60", func_8004A988);
+
+INCLUDE_ASM(const s32, "1CD60", func_8004AA78);
+
+INCLUDE_ASM(const s32, "1CD60", func_8004AD9C);
+
+INCLUDE_ASM(const s32, "1CD60", func_8004AF70);
+
+INCLUDE_ASM(const s32, "1CD60", func_8004B2AC);
+
+INCLUDE_ASM(const s32, "1CD60", func_8004B690);
+
+INCLUDE_ASM(const s32, "1CD60", func_8004B6D8);
+
+INCLUDE_ASM(const s32, "1CD60", func_8004B720);
+
+INCLUDE_ASM(const s32, "1CD60", func_8004BA78);
+
+INCLUDE_ASM(const s32, "1CD60", func_8004BD90);
+
+INCLUDE_ASM(const s32, "1CD60", func_8004C0D4);
+
+INCLUDE_ASM(const s32, "1CD60", func_8004C35C);
+
+INCLUDE_ASM(const s32, "1CD60", func_8004C540);
+
+INCLUDE_ASM(const s32, "1CD60", func_8004C644);
+
+INCLUDE_ASM(const s32, "1CD60", func_8004C91C);
+
+INCLUDE_ASM(const s32, "1CD60", func_8004CAB4);
+
+INCLUDE_ASM(const s32, "1CD60", func_8004CBB0);
+
+INCLUDE_ASM(const s32, "1CD60", func_8004CE34);
+
+INCLUDE_ASM(const s32, "1CD60", func_8004CFC0);
+
+INCLUDE_ASM(const s32, "1CD60", func_8004D188);
+
+INCLUDE_ASM(const s32, "1CD60", func_8004D42C);
+
+INCLUDE_ASM(const s32, "1CD60", func_8004D520);
+
+INCLUDE_ASM(const s32, "1CD60", func_8004D984);
+
+INCLUDE_ASM(const s32, "1CD60", func_8004DC3C);
+
+INCLUDE_ASM(const s32, "1CD60", func_8004DE44);
+
+INCLUDE_ASM(const s32, "1CD60", func_8004DFB4);
+
+INCLUDE_ASM(const s32, "1CD60", func_8004E160);
+
+INCLUDE_ASM(const s32, "1CD60", func_8004E474);
