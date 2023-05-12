@@ -1,5 +1,14 @@
 #include "common.h"
 
+
+typedef struct temp {
+    s8 unk0;
+    s8 unk1;
+    s16 unk2;
+} temp;
+
+extern temp D_800E8058;
+
 void func_80052460(void) {
 }
 
@@ -20,7 +29,15 @@ INCLUDE_ASM(const s32, "2D860", func_80052E04);
 void func_80052E80(void) {
 }
 
-INCLUDE_ASM(const s32, "2D860", func_80052E88);
+
+void func_80052E88(u16 arg0) {
+    D_800E8058.unk2++;
+    
+    if (D_800E8058.unk2 >= arg0) {
+        D_800E8058.unk0++;
+        D_800E8058.unk2 = 0;
+    }
+}
 
 INCLUDE_ASM(const s32, "2D860", func_80052ECC);
 
