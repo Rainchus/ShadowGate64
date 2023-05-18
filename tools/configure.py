@@ -39,7 +39,7 @@ header = (
     'LD = mips-linux-gnu-ld\n'
     'OBJCOPY = mips-linux-gnu-objcopy\n'
     'STRIP = mips-linux-gnu-strip\n'
-    'OPTFLAGS = -O1\n'
+    'OPTFLAGS = -O1 -g2\n'
     'MAKE_EXPECTED = tools/make_expected.py\n'
     '\n'
 
